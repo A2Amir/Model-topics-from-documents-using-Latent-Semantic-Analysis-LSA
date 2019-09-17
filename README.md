@@ -22,6 +22,11 @@ Text classification is a supervised machine learning problem, where a text docum
 
 ### Overview of the LSA method
 
-The central mathematical result is that, for any matrix of real numbers XX of dimension m×nm×n, there is a factorization of XX into matrices TT, SS, and DD such that
 
-Xm×n=Tm×mSm×mD⊤n×m
+### Steps involved in the implementation of LSA
+
+Let’s say we have m number of text documents with n number of total unique terms (words). We wish to extract k topics from all the text data in the documents. The number of topics, k, has to be specified by the user.
+
+   <p align="center">
+    <img src="./img/4.JPG" alt=" A using SVD" />
+    <p align="center">
